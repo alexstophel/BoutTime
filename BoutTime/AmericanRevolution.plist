@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Description</key>
+		<string>King George III ascends to the throne of England.</string>
+		<key>Date</key>
+		<date>1760-10-25T05:50:36Z</date>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Treaty of Paris ends French and Indian War. Canada east of the Mississippi River added to the British empire.</string>
+		<key>Date</key>
+		<date>1763-02-10T05:50:36Z</date>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>The Stamp Act was passed by the British Parliament as a means to pay for British troops on the American frontier.</string>
+		<key>Date</key>
+		<date>1765-03-22T05:50:36Z</date>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>The Quartering Act required American colonists to house British troops and supply them with food. </string>
+		<key>Date</key>
+		<date>1765-03-24T05:50:36Z</date>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Many daily transactions cease as the Stamp Act goes into effect. Violence breaks out in New York City</string>
+		<key>Date</key>
+		<date>1765-11-01T05:50:36Z</date>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Stamp Act repealed - Ben Franklin argued for repeal and warned of a possible revolution in the American colonies if the Stamp Act was enforced by the British military</string>
+		<key>Date</key>
+		<date>1766-03-18T05:50:36Z</date>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Three ships carrying tea sail into Boston harbor.</string>
+		<key>Date</key>
+		<date>1773-11-20T05:50:36Z</date>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>The Royal Governor of Massachusetts, Thomas Hutchinson, orders harbor officials not to let the ship sail out of the harbor unless the tea taxes have been paid.</string>
+		<key>Date</key>
+		<date>1773-11-30T05:50:36Z</date>
+	</dict>
+</array>
+</plist>

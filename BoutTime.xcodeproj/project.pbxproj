@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD665DF91D51AA51007916A2 /* UIEventButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD665DF81D51AA51007916A2 /* UIEventButton.swift */; };
 		ADB712491D515D6500AD6308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB712481D515D6500AD6308 /* AppDelegate.swift */; };
 		ADB7124B1D515D6500AD6308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB7124A1D515D6500AD6308 /* ViewController.swift */; };
 		ADB7124E1D515D6500AD6308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB7124C1D515D6500AD6308 /* Main.storyboard */; };
 		ADB712501D515D6500AD6308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB7124F1D515D6500AD6308 /* Assets.xcassets */; };
 		ADB712531D515D6500AD6308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB712511D515D6500AD6308 /* LaunchScreen.storyboard */; };
+		ADBD609A1D5234BF0014967A /* AmericanRevolution.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADBD60991D5234BF0014967A /* AmericanRevolution.plist */; };
+		ADBD609F1D5249A50014967A /* HistoricalEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBD609E1D5249A50014967A /* HistoricalEventModel.swift */; };
+		ADD9B2F71D60F39600081F2F /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9B2F61D60F39600081F2F /* GameOverViewController.swift */; };
+		ADE5D7CF1D517E2A0011BB23 /* UIEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE5D7CE1D517E2A0011BB23 /* UIEventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD665DF81D51AA51007916A2 /* UIEventButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIEventButton.swift; sourceTree = "<group>"; };
 		ADB712451D515D6500AD6308 /* BoutTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoutTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB712481D515D6500AD6308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB7124A1D515D6500AD6308 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		ADB7124F1D515D6500AD6308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADB712521D515D6500AD6308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB712541D515D6500AD6308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBD60991D5234BF0014967A /* AmericanRevolution.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AmericanRevolution.plist; sourceTree = "<group>"; };
+		ADBD609E1D5249A50014967A /* HistoricalEventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricalEventModel.swift; sourceTree = "<group>"; };
+		ADD9B2F61D60F39600081F2F /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		ADE5D7CE1D517E2A0011BB23 /* UIEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIEventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,43 @@
 		ADB712471D515D6500AD6308 /* BoutTime */ = {
 			isa = PBXGroup;
 			children = (
+				ADBD609B1D5242220014967A /* Models */,
+				ADE5D7CD1D517E150011BB23 /* Views */,
+				ADE5D7CC1D5175180011BB23 /* Controllers */,
 				ADB712481D515D6500AD6308 /* AppDelegate.swift */,
-				ADB7124A1D515D6500AD6308 /* ViewController.swift */,
 				ADB7124C1D515D6500AD6308 /* Main.storyboard */,
 				ADB7124F1D515D6500AD6308 /* Assets.xcassets */,
 				ADB712511D515D6500AD6308 /* LaunchScreen.storyboard */,
 				ADB712541D515D6500AD6308 /* Info.plist */,
+				ADBD60991D5234BF0014967A /* AmericanRevolution.plist */,
 			);
 			path = BoutTime;
+			sourceTree = "<group>";
+		};
+		ADBD609B1D5242220014967A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADBD609E1D5249A50014967A /* HistoricalEventModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		ADE5D7CC1D5175180011BB23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADB7124A1D515D6500AD6308 /* ViewController.swift */,
+				ADD9B2F61D60F39600081F2F /* GameOverViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		ADE5D7CD1D517E150011BB23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADE5D7CE1D517E2A0011BB23 /* UIEventView.swift */,
+				AD665DF81D51AA51007916A2 /* UIEventButton.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +136,7 @@
 					ADB712441D515D6500AD6308 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = ZBYGGLEBBU;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -126,6 +166,7 @@
 				ADB712531D515D6500AD6308 /* LaunchScreen.storyboard in Resources */,
 				ADB712501D515D6500AD6308 /* Assets.xcassets in Resources */,
 				ADB7124E1D515D6500AD6308 /* Main.storyboard in Resources */,
+				ADBD609A1D5234BF0014967A /* AmericanRevolution.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +178,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB7124B1D515D6500AD6308 /* ViewController.swift in Sources */,
+				ADBD609F1D5249A50014967A /* HistoricalEventModel.swift in Sources */,
+				ADD9B2F71D60F39600081F2F /* GameOverViewController.swift in Sources */,
 				ADB712491D515D6500AD6308 /* AppDelegate.swift in Sources */,
+				AD665DF91D51AA51007916A2 /* UIEventButton.swift in Sources */,
+				ADE5D7CF1D517E2A0011BB23 /* UIEventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Alex-Stophel.BoutTime";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -271,6 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Alex-Stophel.BoutTime";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -293,6 +340,7 @@
 				ADB712591D515D6500AD6308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
